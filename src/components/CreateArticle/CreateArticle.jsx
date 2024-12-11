@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../css/create.css";
+import "./create.css";
 
 const CreateArticle = () => {
   const [article, setArticle] = useState({

@@ -1,5 +1,4 @@
-import React from "react";
-import "../css/article.css";
+import "./article.css";
 
 const ArticlePage = () => {
   return (
