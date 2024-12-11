@@ -1,6 +1,6 @@
 import React from "react";
 import { Card, Container } from "react-bootstrap";
-import "./style.css";
+import "./home.css";
 
 function Home(props) {
   return (

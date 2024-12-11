@@ -1,0 +1,109 @@
+:root {
+  --white-text: #fff;
+  --green-text: #57b846;
+  --gray-text: #b3b6b7;
+  --input-text: #1b3815;
+  --title-background: #57b846;
+  --button-background: #57b846;
+  --input-background: #ebebeb;
+  --white-background: #fff;
+}
+
+.sign-up-wrapper {
+  margin: 50px auto;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 550px;
+  height: 800px;
+  background-color: var(--white-background);
+  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.form__title {
+  display: block;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 40px;
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: var(--white-text);
+  background-color: var(--title-background);
+}
+
+.form__inputs {
+  margin: 70px auto;
+  width: 400px;
+}
+
+.form__inputs__group input {
+  display: block;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 27px;
+  padding: 0 35px 0 35px;
+  width: 100%;
+  height: 55px;
+  font-size: 15px;
+  line-height: 1.2;
+  color: var(--input-text);
+  background-color: var(--input-background);
+  outline: none;
+}
+
+.form__inputs__group input::placeholder {
+  font-weight: 600;
+}
+
+.forgot-password {
+  width: 100%;
+}
+
+.forgot-password a {
+  display: block;
+  margin-left: auto;
+  width: 150px;
+  text-decoration: none;
+  color: var(--green-text);
+}
+
+.form__inputs__group button {
+  margin-top: 20px;
+  border: none;
+  border-radius: 27px;
+  padding: 0 35px 0 35px;
+  width: 100%;
+  height: 55px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--white-text);
+  background-color: var(--button-background);
+  cursor: pointer;
+}
+
+.form__inputs__group button:hover {
+  border: 1px solid var(--button-background);
+  color: var(--green-text);
+  background-color: var(--white-background);
+}
+
+.link-to-actions {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  text-align: center;
+}
+
+.link-to-actions span {
+  color: var(--gray-text);
+}
+
+.link-to-actions a {
+  padding-top: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--green-text);
+}

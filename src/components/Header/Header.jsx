@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
+import "./header.css";
 
 function Header(props) {
   return (
@@ -10,11 +11,11 @@ function Header(props) {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link >New Article</Nav.Link>
+            <Nav.Link href="/create">New Article</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="/login">Login</Nav.Link>
-            <Nav.Link >Sign Up</Nav.Link>
+            <Nav.Link href="/signin">Login</Nav.Link>
+            <Nav.Link href="/signup">Sign Up</Nav.Link>
             <NavDropdown title="User" id="collapsible-nav-dropdown">
               <NavDropdown.Item >Profile</NavDropdown.Item>
               <NavDropdown.Item >Setting</NavDropdown.Item>
