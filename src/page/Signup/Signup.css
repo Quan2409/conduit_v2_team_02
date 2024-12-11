@@ -9,14 +9,14 @@
   --white-background: #fff;
 }
 
-.sign-in-wrapper {
-  margin: 100px auto;
+.sign-up-wrapper {
+  margin: 50px auto;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   width: 550px;
-  height: 700px;
+  height: 800px;
   background-color: var(--white-background);
   box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
 }
