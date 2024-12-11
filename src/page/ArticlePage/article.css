@@ -1,0 +1,108 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Header Section */
+  .header {
+    background-color: #4caf50;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Articles Section */
+  .articles {
+    padding: 50px 20px;
+    background-color: #fff;
+  }
+  
+  .articles h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+  }
+  
+  .article-list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .article-card {
+    background-color: #f8f8f8;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .article-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .article-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .article-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .article-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .read-more {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .read-more:hover {
+    background-color: #45a049;
+  }
+  
+  /* Footer Section */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
