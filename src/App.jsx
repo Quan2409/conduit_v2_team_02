@@ -1,10 +1,16 @@
 import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./components/Home";
+import Header from "./components/Header";
 
 const App = () => {
   return (
-    <div>
-      <h1>Hello Conduit Version 2</h1>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </BrowserRouter>
   );
 };
 
